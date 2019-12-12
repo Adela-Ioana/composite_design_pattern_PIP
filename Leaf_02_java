@@ -1,0 +1,21 @@
+package composite_design_pattern;
+
+public class Leaf_02 implements Component{
+	
+	 private Integer id;
+	 private String name;
+	 
+	 Leaf_02(Integer id, String name)
+	 {
+		 this.id = id;
+	     this.name = name;
+	       
+	 }
+	 
+	public void print() 
+	{
+		System.out.println("id+ "+id);
+		System.out.println("nume "+name);
+	}
+
+}
