@@ -1,0 +1,20 @@
+package composite_design_pattern;
+
+public class main {
+
+	public static void main(String[] args) {
+		
+		 Leaf_01 lea11 = new Leaf_01(10, "xyz"); 
+	     Leaf_01 lea12 = new Leaf_01(101, "zzz"); 
+	     Composite_01 c1= new Composite_01(); 
+	     c1.add(lea11); 
+	     c1.add(lea12); 
+	        
+	     Leaf_02 lea21 = new Leaf_02(20, "abc"); 
+	     Leaf_02 lea22 = new Leaf_02(202, "ccc"); 
+	     Composite_02 c2= new Composite_02(); 
+		 c2.add(lea21); 
+		 c2.add(lea22);
+	}
+
+}
