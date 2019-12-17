@@ -13,7 +13,7 @@ public class Leaf_01 implements Component {
 	
 	public void print() 
 	{
-		System.out.println("id+ "+id);
+		System.out.println("id "+id);
 		System.out.println("nume "+name);	
 	}
 
