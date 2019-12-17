@@ -3,8 +3,21 @@ package composite_design_pattern;
 public class base {
 
 	public static void main(String[] args) {
+		Scanner scan= new Scanner(System.in);
 		
-		 Leaf_01 lea11 = new Leaf_01(10, "xyz"); 
+		System.out.println("Numar de obiecte composite1: ");
+		int text1= scan.nextInt();
+		
+		System.out.println("Numar de obiecte composite2: ");
+		int text2= scan.nextInt();
+
+		System.out.println("Numar de obiecte leaf1: ");
+		int text3= scan.nextInt();
+
+		System.out.println("Numar de obiecte leaf2: ");
+		int text4= scan.nextInt();
+		
+	     Leaf_01 lea11 = new Leaf_01(10, "xyz"); 
 	     Leaf_01 lea12 = new Leaf_01(101, "zzz"); 
 	     Composite_01 c1= new Composite_01(); 
 	     c1.add(lea11); 
