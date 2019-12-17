@@ -3,9 +3,9 @@
 mini-project PIP based on composite design pattern
 ...................................................
 OBS: -creare de reguli de umplere a arborii precum:
-              -de tip arbore "complet"
-              -de tip arbore "completat pe exterior"
-              -de tip arbore "completat doar pe stanga"
-              -de tip arbore "completat pe dreapta"1
+              1)de tip arbore "complet"
+              2)de tip arbore "completat pe exterior"
+              3)de tip arbore "completat doar pe stanga"
+              4)de tip arbore "completat pe dreapta"1
               
            
