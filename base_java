@@ -1,6 +1,6 @@
 package composite_design_pattern;
 
-public class main {
+public class base {
 
 	public static void main(String[] args) {
 		
