@@ -1,0 +1,26 @@
+package composite_design_pattern;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Personale implements Mijloace_De_Transport{
+
+	
+ 
+    private List<Mijloace_De_Transport> Lista2 =new ArrayList<Mijloace_De_Transport>();; // crearea listei
+ 
+   
+ 
+    public void print() {
+        Lista2.forEach(Mijloace_De_Transport::print);   //afisarea elementelor din lista
+    }
+ 
+    public void add(Mijloace_De_Transport mij) { 		
+        Lista2.add(mij);								//adaugarea in lista
+    }
+ 
+    public void remove(Mijloace_De_Transport mij) {
+        Lista2.remove(mij);							//eliminarea din lista
+    }
+
+}
