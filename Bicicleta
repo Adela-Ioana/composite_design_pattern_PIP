@@ -1,0 +1,17 @@
+package composite_design_pattern;
+
+public class Bicicleta implements Mijloace_De_Transport{
+
+	 private Integer id;
+	 private String name;
+	public void print() {
+		// TODO Auto-generated method stub
+		System.out.println("id "+id);
+		System.out.println("nume "+name);
+	}
+	public Bicicleta (Integer id, String name) {
+        this.id = id;
+        this.name = name;
+        //constructor cu argumente
+    }
+}
