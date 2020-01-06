@@ -1,0 +1,20 @@
+package composite_design_pattern;
+
+
+public class Autobuz implements Mijloace_De_Transport{
+	
+	 private Integer id;
+	 private String name;
+	@Override
+	public void print() {
+		// TODO Auto-generated method stub
+		System.out.println("id "+id);
+		System.out.println("nume "+name);
+		
+	}
+	public Autobuz(Integer id, String name) {
+        this.id = id;
+        this.name = name;
+        
+    }
+}
