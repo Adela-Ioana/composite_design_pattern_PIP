@@ -1,0 +1,28 @@
+package composite_design_pattern;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+
+public class Publice implements Mijloace_De_Transport {
+
+
+ 
+	private List<Mijloace_De_Transport> Lista1=new ArrayList<Mijloace_De_Transport>();
+ 
+    
+ 
+    public void print() {
+        Lista1.forEach(Mijloace_De_Transport::print);
+    }
+ 
+    public void add(Mijloace_De_Transport mij) {
+        Lista1.add(mij);
+    }
+ 
+    public void remove(Mijloace_De_Transport mij) {
+        Lista1.remove(mij);
+    }
+
+}
